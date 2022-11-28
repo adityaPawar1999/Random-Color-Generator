@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f77754;
+}
+.container{
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    position: relative;
+    box-shadow: rgba(50, 50, 93, 0.25)
+     0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 
+     0px 30px 60px -30px;
+     border-radius: 10px;
+}
+#color-card{
+    background:#f77754;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 75px;
+    border-radius: 10px;
+    left: -50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 
+    0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 
+    0px 30px 60px -30px;
+}
+.fa-solid{
+    color: #fff;
+    margin-right: 10px;
+}
+h2{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    height: 230px;
+}
+#hex{
+    display: flex;
+    color: #fff;
+    font-size: 40px;
+    margin: 10px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+button{
+    background: none;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+button:hover{
+    background-color: #fff;
+    color: black;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.fa-heart{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
